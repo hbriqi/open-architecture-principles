@@ -1,0 +1,96 @@
+
+Technology Principles
+
+PRINCIPLE 01 – Use Open Standards and Open Source
+Element	Description
+Statement	Open standards should be used where applicable in solution designs to enable interoperability. Open source software must be compared and considered alongside commercial software when selecting technology solutions.
+Rationale	Closed proprietary standards restrict reuse, reduce interoperability and can create vendor lock-in that leads to unforeseen financial costs.
+Implications	Exit, rebid and rebuild costs must be taken into consideration during procurement decisions for best value for money comparisons, between open source and proprietary solutions.
+Open Source is not necessarily free to use. Many independent software vendors use open source technology within proprietary for-profit services. Other companies provide commercial service management wrappers around open source products. 
+Commercial software needs to be considered alongside open source equivalents from a total cost of ownership perspective.	
+
+PRINCIPLE 02 – Manage technical debt and obsolescence
+Element	Description
+Statement	The development process for the company must make changes easier. Any
+tactical decisions that introduce technical debt (quick but messy
+solutions) will only be endorsed if there is a recognized actionable plan to
+address both technically and financially.
+Rationale	Unaddressed technical debt increases the complexity and costs of maintaining systems making it harder to upgrade software, transition services and deliver solutions that meet users’ needs
+Implications	Reducing technical debt must become part of the company’s culture. Applications and services need to be designed and delivered to be as technology independent as possible. An increased level of service-based architecture will be required.
+Delivery projects adopting an Agile delivery method will need to have an Architecture Owner to safeguard against adding new technical debt into the Thiqah systems.
+Software and hardware assets (non-Cloud) must be recorded and managed in a configuration management system.
+
+PRINCIPLE 03 – Exploit the Cloud
+Element	Description
+Statement	Solutions will be assessed to determine the benefits of migration to
+Cloud-based service models for infrastructure, platform and software as applicable.
+Rationale	Assessment of architectures, workloads, finance, operations and security will determine if a solution can be re-hosted (IaaS), rebuilt (PaaS), replaced (SaaS) or refactored as a hybrid solution.
+Implications	Not all Thiqah services will be appropriate for delivery via the cloud. Evaluation criteria need to be created to provide the basis for an assessment model that can be used to justify architecture decisions. 
+Cloud Service Providers must evidence the ITSM best practices, security and data protection standards followed.
+Metrics	
+
+
+Cross-cutting 
+--------------
+PRINCIPLE 01 – SECURITY
+Element	Description
+Statement	The architecture should ensure confidentiality, authenticity, and reproducibility, and
+comply with legislation
+Rationale	Government security, confidentiality, and privacy policies and laws are adhered to Information is protected against unauthorized access, denial of service, and Intentional/accidental modification.
+Appropriate levels of access to information while maintaining tight security against unauthorized access.
+Implications	Clear, well-communicated security policies
+Security considerations at all levels of the architecture
+A robust regime of security testing from both internal and external perspectives Proactive management of security systems
+Metrics	Number of security incidents
+
+PRINCIPLE 02 – AVAILABILITY
+Element	Description
+Statement	Systems should be capable and highly available
+Rationale	Permanently available applications are reliable and trustworthy and encourage residents and businesses to use e-Government Changing working patterns and citizen expectations are supported.
+Implications	Clear settings, No single point of failure in the architecture Proactive planning for the downtime of essential services.
+Metrics	Availability against downtime.
+
+
+PRINCIPLE 03 – FAULT AND ERROR TOLERANCE
+Element	Description
+Statement	Systems should be capable of handling unforeseen and invalid system states
+Rationale	Unpredictable system behavior negatively affects the adoption of services Potential for data loss or corruption.
+Implications	Clear, well-communicated design and coding standards Robust integration and testing regime Integrated system help center and guidance features
+Metrics	The number of issues raised on live services as a result of system crashes and unexpected outcomes.
+ 
+PRINCIPLE 04 – PERFORMANCE AND SCALABILITY
+Element	Description
+Statement	Systems should have response times that encourage widespread adoption within their user communities. The system should be scalable to allow additional capacity/bandwidth/volume of users.
+Rationale	Successful use of an application is contingent upon user-friendly, performance-driven provision of data. 
+With centrally operated applications, the number of users is often unknown, cost-effective scalability must be ensured as the number of public entities and users increases.
+Without easy scalability, systems risk quickly requiring major costly upgrades and/or facing service disruptions.
+Implications	Clear performance (and other non-functional requirements) must be stated. Agile teams must work together on predictions and capacity planning for service adoption and peak usage.
+
+Performance modeling, testing, and monitoring disciplines should be established with appropriate responsibility.
+Metrics	Transaction response times.
+
+ 
+PRINCIPLE 05 – INTEROPERABILITY AND OPENNESS
+Element	Description
+Statement	The system should easily interface with other systems through APIs in a manner that allows multiple systems to operate within one environment
+Rationale	Thiqah currently operate cost-intensive legacy systems. The openness of an application is crucial to its future successful use. Systems with limited interoperability risk requiring complex patching and interfaces for every new technology integrated.
+Implications	Architectural interfaces should be well-designed and documented to enable simple integration of new and existing systems need education and training for solution design and development staff.
+Metrics	Reduction in time and cost for system integration projects
+
+
+PRINCIPLE 06 – AGILITY AND FLEXIBILITY
+Element	Description
+Statement	The architecture should be easily adjustable to new frames of reference as well as upgrades at a predictable cost.
+Justification	Systems maintenance typically consumes more than high percent of many organizations’ overall budget. Well-maintained and -updated systems increase efficiency and reduce the potential for downtime
+Implications	BioSolutions teams must plan, design, and construct to support the growth and expansion of services (known requirements).
+Operating and updating systems should be as simple and cost-effective as possible to enable external experts to efficiently maintain and update them with a minimal learning curve.
+
+
+PRINCIPLE 07 – COMPLETENESS
+Element	Description
+Statement	Provide a standard that yields a complete architecture if closely followed
+Justification	Changes are minimized during the maintenance phase of systems built to follow the standards. Developed systems should have components that enable them to cover all business requirements
+Implications	The standards must be constantly researched and updated to remain current with needed technologies.
+A detailed agile project management process is needed to ensure changes are made known to entities as required	
+
+

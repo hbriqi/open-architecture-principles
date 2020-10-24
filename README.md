@@ -1,2 +1,2 @@
 # open-architecture-principles
-The Open Architecture Principles
+The Open Enterprise Architecture Principles

@@ -1,7 +1,7 @@
-https://github.com/hisham-elbreky/open-architecture-principles/blob/main/Diagrams/Integration%20Services%20Model.png
+![Integration Services](https://github.com/hisham-elbreky/open-architecture-principles/blob/main/Diagrams/Integration%20Services%20Model.png)
 
-Integration Platform – Design Principles 
-PRINCIPLE 01 – Integration Use Cases 
+# Integration Platform – Design Principles 
+## PRINCIPLE 01 – Integration Use Cases 
 Element  
 Description  
  Statement 
@@ -23,7 +23,7 @@ Digital process automation: Automating business processes, with a goal of improv
   
  
  
-PRINCIPLE 02 – Integration Approaches 
+## PRINCIPLE 02 – Integration Approaches 
 Element  
 Description  
 Statement  
@@ -52,7 +52,7 @@ SOA
   
   
  
-PRINCIPLE 03 – Platform Maturity 
+## PRINCIPLE 03 – Platform Maturity 
 Element  
 Description  
  Statement  
@@ -78,7 +78,7 @@ Enable DevOps pipelines to have access on the integration environment without li
   
   
  
-PRINCIPLE 5 – Monitoring and Administration  
+## PRINCIPLE 5 – Monitoring and Administration  
 Element  
 Description  
 Statement  
@@ -91,7 +91,7 @@ Provide dashboard and ticketing system to handle the issues and environment conf
   
  
  
-PRINCIPLE 06 – Scalable Platform  
+## PRINCIPLE 06 – Scalable Platform  
 Element  
 Description  
 Statement  
@@ -104,8 +104,8 @@ Efficient utilization of infrastructure
   
  
  
-Application Integration Principles  
-PRINCIPLE 01 – Integration Interface Standard 
+# Application Integration Principles  
+## PRINCIPLE 01 – Integration Interface Standard 
 Element  
 Description  
  Statement  
@@ -117,7 +117,7 @@ Standard communication contract must be identified is in-prior to development e.
   
  
  
-PRINCIPLE 02 – Supported Protocols of Integration Interface 
+## PRINCIPLE 02 – Supported Protocols of Integration Interface 
 Element  
 Description  
  Statement  
@@ -129,7 +129,7 @@ Selecting the communication protocol must consider the use case, for example whe
  Metrics  
   
  
-PRINCIPLE 03 – Aggregation API 
+## PRINCIPLE 03 – Aggregation API 
 Element  
 Description  
  Statement  
@@ -143,8 +143,8 @@ Data aggregation to be done on the level of API to make it data source agnostic 
   
  
  
-Event-based integration Principles  
-PRINCIPLE 01 – Event Documentation 
+# Event-based integration Principles  
+## PRINCIPLE 01 – Event Documentation 
 Element  
 Description  
  Statement  
@@ -156,7 +156,7 @@ Event must be declared with the owner application(s)/producer(s) and the subscri
   
  
  
-PRINCIPLE 02 – Event Security 
+## PRINCIPLE 02 – Event Security 
 Element  
 Description  
  Statement  
@@ -169,7 +169,7 @@ Each system account must be configured to be authorized with specific actions on
   
  
  
-PRINCIPLE 03 – Event Sourcing  
+## PRINCIPLE 03 – Event Sourcing  
 Element  
 Description  
  Statement  
@@ -183,7 +183,7 @@ Implications   
  
  
  
-PRINCIPLE 04 – Using Event Driven  
+## PRINCIPLE 04 – Using Event Driven  
 Element  
 Description  
  Statement  
@@ -203,7 +203,7 @@ Integration of heterogeneous systems e.g. systems running on different stacks
   
  
  
-PRINCIPLE 04 – Choreography Pattern  
+## PRINCIPLE 04 – Choreography Pattern  
 Element  
 Description  
  Statement  
@@ -217,19 +217,9 @@ This pattern is a natural model for the serverless architecture where all servic
   
  
  
- Statement  
-Data Virtualization help in efficient aggregating data from heterogenous data sources 
-Rationale  
-Aggregating data from heterogeneous data sources with the need of best performance without requiring technical detail, that demand to rely on data vitiation technique 
  
-Implications  
-Implementing data virtualization requires a big scale environment, so it is considered that it is part of big data implementation      
-  
- 
- 
- 
-Data Integration Principles 
-PRINCIPLE 01 – Data Virtualization 
+#Data Integration Principles 
+## PRINCIPLE 01 – Data Virtualization 
 Element  
 Description  
  Statement  
@@ -242,7 +232,7 @@ Implementing data virtualization requires a big scale environment, so it is cons
   
  
  
-PRINCIPLE 02 – Data Synchronization 
+## PRINCIPLE 02 – Data Synchronization 
 Element  
 Description  
  Statement  

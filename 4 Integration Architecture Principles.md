@@ -1,38 +1,45 @@
 ![Integration Services](https://github.com/hisham-elbreky/open-architecture-principles/blob/main/Diagrams/Integration%20Services%20Model.png)
 
 # Integration Platform – Design Principles 
+
 ## PRINCIPLE 01 – Integration Use Cases 
-Element  
-Description  
- Statement 
-The platform can fit with different integration use-cases  
-Rationale  
+
+#### Statement 
+The platform can fit with different integration use-cases
+
+#### Rationale  
 The platform has the capability to be used to implement integration solution for the well-known integration use-case, and can be configured easily to fit with the special use-case  
   
-Implications  
+#### Implications  
 Platform supported with the runtimes which support  
 Master data management: Synchronizing master data repositories and communicating changes — for example, taking customer data from CRM and ERP systems and creating a master record of that data, then pushing any changes back to the individual systems. 
 Application data sync: Synchronizing data between application stores — for example, between two microservice features that need a common view of product data or replicating customer data between a CRM and ERP system. 
+
 Business intelligence and reporting: Creating semantic layers in reporting platforms, where it will be used to generate analytics and insights used by line-of-business managers — for example, generating daily sales reports. 
+
 Machine learning and analytics data pipelines: Delivering bulk datasets that will be used by data scientists to perform their analytic tradecraft; gathering data for training sets is a combination of one-off and recurring data delivery activities — for example, gathering customer purchase data to train a machine learning model for a recommendation engine and then keeping it up-to-date to ensure it reflects current buying habits. 
-Streaming analytics: Delivering streams of data, where the position of an event in the stream and the content of nearby events is as important as the integrity of individual data items — for example, the ordering and timing of messages in the stream must be maintained, and you may need to pause, rewind and replay parts of the stream. (Streaming analytics often involves looking for patterns within a stream of data, such as potentially fraudulent activity in a stream of financial transactions.) 
+
+Streaming analytics: Delivering streams of data, where the position of an event in the stream and the content of nearby events is as important as the integrity of individual data items — for example, the ordering and timing of messages in the stream must be maintained, and you may need to pause, rewind and replay parts of the stream. (Streaming analytics often involves looking for patterns within a stream of data, such as potentially fraudulent activity in a stream of financial transactions).
+
 Business-to-business integration: Exchanging information with external organizations and business partners — for example, submitting requisitions as part of a digital supply chain. 
+
 Application composition: Creating new applications by orchestrating a set of calls to existing services — for example, creating a customer check-out application that calls existing inventory management, payment processing, logistics and CRM applications. 
+
 Digital process automation: Automating business processes, with a goal of improving process speed, compliance and accuracy — for example, automating the process of provisioning IT accounts, building access and payroll for new employees.tion platform -at least- support the following use-case: 
    
   
  
  
 ## PRINCIPLE 02 – Integration Approaches 
-Element  
-Description  
-Statement  
+ 
+#### Statement
+
 The platform supports all standard integration approaches  
 Rationale  
 Many of integration use-case can be applied 
   
   
-Implications  
+#### Implications  
 Integration spectrums can be identified by: 
 Data integration  
 Event-driven integration  

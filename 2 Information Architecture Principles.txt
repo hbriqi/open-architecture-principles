@@ -19,20 +19,10 @@ only built if there is a unique requirement that cannot otherwise be fulfilled.
 Rationale:	Reuse will provide value for money by simplifying the ICT landscape, reducing data duplication and adopting common business processes
 Implications:	Funding of projects will need to cater for cross project delivery (shared services) to avoid unnecessary duplication of BizSolutions services (silos). To maximize value and reduce complexity requirements for shared services should be captured cross project.
 
-
-
-PRINCIPLE 02 – Seek architecture approval
-Statement:	All projects will be subject to architectural approval at key stages throughout the delivery lifecycle.
-Rationale:	To ensure that projects collectively move in the technology direction that is required by the Highways EA. To control and prevent divergence from strategic intent and to understand the trade-offs around any divergence.
-Implications:	Changes to the architecture need to be formally managed so that divergence is controlled.
-
-
-
-Principle 03: DRY
+Principle 02: DRY
 Statement:	Don’t repeat yourself 
 Rational: When the DRY principle is applied successfully, a modification of any single element of a system does not require a change in other logically unrelated elements. Additionally, elements that are logically related all change predictably and uniformly and are thus kept in sync. 
 Implications:	Besides using methods and subroutines in their code, rely on code generators, automatic build systems, and scripting languages to observe the DRY principle across layers.
-
 
 Principle 04: KISS
 Statement:	Keep it simple and straightforward
